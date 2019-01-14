@@ -1,0 +1,236 @@
+/* CSS style created by David Pham */
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic */
+
+body {
+  background-color: white;
+	font-family: "Arial", "arial sans";
+	font-size: 14px;
+}
+
+a:link, a:visited {
+    color: #000000;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    color:#0000ff;
+}
+
+address {
+  color: #ffffff;
+}
+
+/* Start Bootstrap CSS */
+
+/*navbar styling */
+.nav-link {
+  background:#f2f2f2;
+  color:#404040;
+}
+
+
+/* Button Styling */
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+    color: #0000ff;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary::visited {
+    background: #f2f2f2;
+    color: #404040;
+
+}
+ 
+.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #f2f2f2;
+    color: #404040;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #f2f2f2;
+    box-shadow: none;
+}
+
+.btn.sharp {
+  border-radius:0;
+}
+
+/* End Button Styling */
+
+/* Media Buttons  */
+#media {
+  background-color: #ffa31a;
+}
+
+.col-sm-3 {
+  background-color: ;
+
+}
+
+.col-sm-3 .well-sm {
+  background-color:#ffd699;
+}
+
+.col-sm-3 .well-sm h5 > a {
+  font-weight: normal;
+  color: black;
+}
+
+.col-sm-3 .well-sm h5 > a:visited {
+  color: purple;
+}
+
+.col-sm-3 .well-sm h5 > a:hover {
+  color: blue;
+}
+/* End Media Buttons */
+
+/* Start Carousel */
+#myCarousel {
+  background-color: #000000;
+}
+
+/* Parents */
+
+#parents {
+  background-color: white;
+}
+
+
+/* Start Information */
+#information{
+  background-color: #404040;
+}
+
+#information > a {
+  color: #ffffff;
+}
+
+/* Start Information */
+#information2{
+  background-color: #404040;
+}
+
+#information2 > a {
+  color: #ffffff;
+}
+
+
+/* Pop up */
+.box {
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #000;
+  border: 2px solid #FFA500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  text-align: center;
+}
+.button:hover {
+  background: #FFA500;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup p {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #333;
+}
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media all and (max-width: 699) and (min-width: 768px), (min-width: 1151px) {
+    img {
+    width: auto;
+    height: auto;
+  }
+}
+
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+                /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
