@@ -170,15 +170,15 @@ a:hover, a:active {
 }
 
 /* Start Information */
-#information2{
+.container-fluid footer{
   background-color: #404040;
 }
 
-#information2 > a {
+ .container-fluid footer > a {
   color: #ffffff;
 }
 
-#information2 >a:link, a:visited {
+.container-fluid footer >a:link, a:visited {
     color: #000000;
     padding: 14px 25px;
     text-align: center;
