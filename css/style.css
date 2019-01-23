@@ -65,8 +65,12 @@ a:hover, a:active {
 .navbar-collapse {
     width: auto;
     padding: 0;
+    background: #ffffff;
 }
 
+.navbar-toggle {
+   background-color: #ffa31a;
+}
 
 /* Start Bootstrap CSS */
 
@@ -120,6 +124,7 @@ a:hover, a:active {
 
 /* End Button Styling */
 
+
 /* Media Buttons  */
 #media {
   background-color: #ffa31a;
@@ -170,15 +175,15 @@ a:hover, a:active {
 }
 
 /* Start Information */
-.container-fluid footer{
+#information2{
   background-color: #404040;
 }
 
- .container-fluid footer > a {
+#information2 > a {
   color: #ffffff;
 }
 
-.container-fluid footer >a:link, a:visited {
+#information2 >a:link, a:visited {
     color: #000000;
     padding: 14px 25px;
     text-align: center;
