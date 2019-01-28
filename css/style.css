@@ -27,6 +27,17 @@ a:hover, a:active {
     color:#0000ff;
 }
 
+.fill {
+  background-color: #ffa31a;
+  width: auto;
+  height: 100px;
+  color: black;
+}
+
+.social {
+  text-align: right;
+}
+
 .address {
     color: #ffffff;
 }
@@ -42,17 +53,23 @@ a:hover, a:active {
 /*Nav-bar brand*/
 .top {
   color: black;
-  background-color: red;
+  background-color: #fff;
   margin: 0px;
   padding: 0px;
   border: 0px;
   width: auto;
 }
 
+.container .logotop {
+  width: auto;]
+
+}
+
 .navbar-brand {
   float: left;
   width: auto;
-  padding: 0px;
+  padding: 10px;
+  margin: 10px;
 }
 
 span.navbar-brand {
@@ -75,6 +92,7 @@ span.navbar-brand {
   margin: 0px;
   padding: 0px;
   text-align: left;
+  background-colr: #fff;
 }
 
 /*nav-bar styling*/
@@ -102,7 +120,7 @@ span.navbar-brand {
 }
 
 .navbar-toggle {
-  background-color: #ffa31a;
+  background-color: #fff;
 }
 
 /* Start Bootstrap CSS */
