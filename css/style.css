@@ -30,8 +30,10 @@ a:hover, a:active {
 .fill {
   background-color: #ffa31a;
   width: auto;
-  height: 100px;
+  height: 50px;
   color: black;
+  margin: 0px;
+  padding: 0px;
 }
 
 .social {
@@ -58,11 +60,6 @@ a:hover, a:active {
   padding: 0px;
   border: 0px;
   width: auto;
-}
-
-.container .logotop {
-  width: auto;]
-
 }
 
 .navbar-brand {
@@ -321,6 +318,12 @@ span.navbar-brand {
     img {
     width: auto;
     height: auto;
+  }
+}
+
+@media (min-width: 700px) {
+  .container {
+    max-width: 1001px;
   }
 }
 
