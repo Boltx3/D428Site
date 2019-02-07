@@ -10,7 +10,7 @@
 /* Basic */
 
 body {
-  background-color: white;
+  background-color: #f2f2f2;
 	font-family: "Arial", "arial sans";
 	font-size: 14px;
 }
@@ -30,7 +30,7 @@ a:hover, a:active {
 .fill {
   background-color: #ffa31a;
   width: auto;
-  height: 50px;
+  height:30x;
   color: black;
   margin: 0px;
   padding: 0px;
@@ -40,39 +40,23 @@ a:hover, a:active {
   text-align: right;
 }
 
-.address {
-    color: #ffffff;
-}
 
 /*nav-bar*/
 .navbar {
-    margin: 10px;
-    padding: 5px;
-    color: #ffffff;
-    width: auto;
+
 }
 
 /*Nav-bar brand*/
 .top {
-  color: black;
-  background-color: #fff;
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
-  width: auto;
+  background-color: blue;
 }
 
 .navbar-brand {
-  float: left;
-  width: auto;
-  padding: 10px;
-  margin: 10px;
+
 }
 
 span.navbar-brand {
-  font-size: 16px;
-  width: auto;
-  display: block;
+
 }
 
 .navbar-brand > img{
@@ -215,7 +199,7 @@ span.navbar-brand {
 
 /* Start Information */
 .about{
-  background-color: #ffffff;
+  background-color: #f3f3f3;
 }
 
 .about > a {
@@ -314,7 +298,7 @@ span.navbar-brand {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media all and (max-width: 699) and (min-width: 768px), (min-width: 1151px) {
+@media all and (max-width: 1080) and (min-width: 768px), (min-width: 1151px) {
     img {
     width: auto;
     height: auto;
@@ -323,19 +307,9 @@ span.navbar-brand {
 
 @media (min-width: 700px) {
   .container {
-    max-width: 1001px;
+    max-width: 1800px;
+    margin: auto;
+    border: 3px
+    padding 5px;
   }
 }
-
-  .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  .navbar-wrapper .navbar {
-    padding-right: 0;
-    padding-left: 0;
-  }
-                /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {
-    border-radius: 4px;
-  }
