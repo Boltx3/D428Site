@@ -13,5 +13,18 @@ body {
 	font-family: "Arial", "arial sans";
 	font-size: 14px;
 }
+
+ul {
+    style: none;
+}
+
+li {
+    display: flex;
+}
+
 /*Topnav Style */
 
+
+.navbar .navbar-collapse {
+    background-color: gray;
+}
