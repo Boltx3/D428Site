@@ -14,10 +14,6 @@ body {
 	font-size: 14px;
 }
 
-ul {
-    style: none;
-}
-
 li {
     display: flex;
 }
