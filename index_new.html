@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>DeKalb CUSD 428: Home Page</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <link ref="stylesheet" href="C:/Users/david.pham/Documents/GitHub/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
 <!--Mobile button-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+<nav class="navbar">
+    <!--Image and text-->
+    <a class="navbar-brand" href="#"><img src="/images/428logo.png" width="40" height="50" class="d-inline-block align-top" alt="428Logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
 <!--End Mobile Button-->
 
 <!--TopNav-->
-<div class="navbar navbar-collapse" id="narvbarContent">
-		<ul class="navbar-nav mr-auto">
+<div class="navbar navbar-collapse" id="navbarContent">
 			<li class="nav-item active"><a href="#parents"> Parent/Student Portal<span class="sr-only"></span></span></a></li>
             <!-- School Drop Down -->
-            <li>
+            <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarSchool" role="button" data-toggle="dropdown" aria-haspopup="true">Schools</a> 
                     <div class="dropdown-menu" aria-labelledby="navbarSchool">
                     <a class="dropdown-item" href="https://eldc.d428.org">Early Learning & Development Center</a>	
@@ -46,7 +48,7 @@
 			<li><a href="https://sites.google.com/d428.org/staffresources/home">Staff Resources</a></li>
        		<!-- End Staff Resources Drop Down -->
             <!-- Departments Drop down -->
-            <li>
+            <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDept" role="button" data-toggle="dropdown">Department</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDept">   
                         <a class="dropdown-item" href="http://il.8to18.com/dekalbhs">Athletics</a>
@@ -61,9 +63,9 @@
                     </div>
             </li>
             <!-- Communities Dropdown -->
-            <li>
+            <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarCommunity" role="button" data-toggle="dropdown">Communities</a>
-                    <div class="dropdown-ment" aria-labelledby="navbarCommunity">
+                    <div class="dropdown-menu" aria-labelledby="navbarCommunity">
                         <a class="dropdown-item" href="https://sites.google.com/d428.org/barbfoodmart/home">Barb Food Mart</a>
 			            <a class="dropdown-item" href="http://www.cityofdekalb.com/183/Community-Development">Community Resources</a>
 			            <a class="dropdown-item" href="http://dekalbeducationfoundation.org/">DeKalb Education Foundation</a>
@@ -77,25 +79,37 @@
             
             <!-- Staff Directory -->
 			<li><a href="http://www.dist428.org/staffDir.html">Staff Directory</a></li>
-		</ul>
 </div>
-</nav>   
-	<!-- End of  Menu -->
+</nav> 
+<!-- End of  Menu -->
     
  <!--Content-->
- <div>
-     <p>Area of pictures or other stuff</p>
- </div>
+    <div class="mainContent">
+        <p>Area of pictures or other stuff</p>
+    </div>
  <!--End Content-->
+
+ <!--Parent/Student Resources-->
+    <div class="flex-container">
+        <i class="fab fa-accessible-icon"></i>
+        <i class="fab fa-accessible-icon"></i>
+        <i class="fab fa-accessible-icon"></i>
+        <i class="fab fa-accessible-icon"></i>
+        <i class="fab fa-accessible-icon"></i>
+        <i class="fab fa-accessible-icon"></i>
+        <i class="fab fa-accessible-icon"></i>
+        <i class="fab fa-accessible-icon"></i>
+        <i class="fab fa-accessible-icon"></i>
+        <i class="fab fa-accessible-icon"></i>
+    </div>
  
  <!--Footer-->
- <footer>
-     <p>About This Company</p>
-     <ul>
-        <li><a href="https://illinoisreportcard.com/District.aspx?source=profile&Districtid=16019428026">Illinois Report Card</a></li>
-        <li><a href="https://drive.google.com/open?id=1tyYd-MeShWt-ZrvxSAbhjgNUlqGJ1wY2">Annual Report 2017</a></li>
-    </ul>
- </footer>
+<div class="footer">
+        <p>DeKalb Community School District 428 | 901 S 4th St | DeKalb, IL 60115 </p>
+        <p>Phone: (815)754-2350 | Español: (815) 754-2102</p>
+        <a href="https://www.facebook.com/CUSD428/"><i class="fab fa-facebook"></a></i>
+        <a href="https://twitter.com/DeKalbDist428"><i class="fab fa-twitter-square"></a></i>
+</div>
 <!-- End Footer-->
 
     <!-- Optional JavaScript -->

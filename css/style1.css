@@ -8,7 +8,6 @@
 }
 
 /* Basic */
-
 body {
 	font-family: "Arial", "arial sans";
 	font-size: 14px;
@@ -18,9 +17,22 @@ li {
     display: flex;
 }
 
-/*Topnav Style */
+a:hover, a:focus, a:link, a:active {
+    color: purple;
+}
 
+/*body style*/
+.mainContent {
+    margin: 0;
+    padding: 10px;
+}
 
-.navbar .navbar-collapse {
-    background-color: gray;
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flex-container i {
+    align-items: center;
 }

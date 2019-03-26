@@ -1,0 +1,13 @@
+/*Mobile Button Style*/
+.navbar {
+    background-color: white;
+}
+
+.navbar .navbar-toggler {
+    background-color: gray;
+}
+
+/*Topnav Style */
+.navbar .navbar-collapse {
+    background-color: gray;
+}
