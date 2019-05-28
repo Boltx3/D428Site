@@ -1,14 +1,15 @@
 /*Footer Style */
 .footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
-    padding: 10px;
-    margin: 0;
+    padding: 15px;
     background-color:#ffa31a;
     text-align: center;
     font-size: 12px;
+    text-align: center;
+    vertical-align: bottom;
   }
 
 .footer p {
